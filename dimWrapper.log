@@ -1,0 +1,5 @@
+Tue Aug 26 21:42:54, PID 3728, server :  Dim client: error_user_routine - severity (0 - info, 1 - warning, 2 - error, 3 - fatal): 3, error_code 1, DIM_DNS_NODE undefined
+Tue Aug 26 21:42:54, PID 3728, server BuncherCS:  DIM server starting. 
+Tue Aug 26 21:42:54, PID 3728, server BuncherCS:  DIM server: error_user_routine - severity (0 - info, 1 - warning, 2 - error, 3 - fatal): 3, error_code 1, DIM_DNS_NODE undefined
+Tue Aug 26 21:42:54, PID 3728, server BuncherCS:  Dim: received exit command -1
+Tue Aug 26 22:25:48, PID 3728, server BuncherCS:  DimWrapper library deinitialized

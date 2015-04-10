@@ -1,0 +1,94 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Library LVVersion="14008000">
+	<Property Name="Alarm Database Computer" Type="Str">localhost</Property>
+	<Property Name="Alarm Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2009_data</Property>
+	<Property Name="Alarm Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2009\data</Property>
+	<Property Name="Data Lifespan" Type="UInt">3650</Property>
+	<Property Name="Database Computer" Type="Str">localhost</Property>
+	<Property Name="Database Name" Type="Str">C__Program_Files_National_Instruments_LabVIEW_2009_data</Property>
+	<Property Name="Database Path" Type="Str">C:\Program Files\National Instruments\LabVIEW 2009\data</Property>
+	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
+	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="NI.Lib.Description" Type="Str">This is a class is a wrapper to control the ISOLTRAP Miniquads. It calculates from the three input voltages (focus, vertical, horizontal) the necessary output voltages (top, bottom, left, right) and hands them over to the objects which are controlling the power supply connected to the Miniquads.
+
+Kown issues:
+- This class needs to run on the same CS system as the called PS class.
+- No check of voltage ranges (to be done via the called PS class).
+- No GetVoltage methods implemented (as there is no readback connected to the Miniquads at the moment).
+
+author: Christopher Borgmann, MPI-K, Heidelberg, Germany
+maintainer: Christopher Borgmann, MPI-K, Heidelberg, Germany
+Contact: christopher.borgmann@cern.ch
+
+License Agreement for this software:
+
+Copyright (C)  2011 Christopher Borgmann
+Max-Planck-Institut für Kernphysik
+Saupfercheckweg 1
+69117 Heidelberg
+Germany
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+For all questions and ideas contact: christopher.borgmann@cern.ch.
+
+Last change: 23.08.2011</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;3R=&gt;MQ'-8RZVS+F.1'/45?Y&amp;N"48S85CN]+[B)%:&gt;;Y;WA&amp;62YA3]DK-A!UAL-HS$MS"?&gt;653Z3W&amp;1E-5(!PA2B#GV]EH[K0&amp;;_@&amp;GO58\-(W'[7QY;RF_NV0_\(H70P=@HL`G]`H(Z@&lt;B6@O&amp;97^Y@^?+XCTP\?`N@^&gt;_@@M^8N_E`\:)&gt;UV+,;KJ39VW&gt;W/2&amp;XG2&amp;XG2&amp;\H*47ZSEZP=Z%G?Z%G?Z%G?Z%%?Z%%?Z%%?Z/UA&amp;\H)2=[K&amp;*-8%R7$&amp;A-5&amp;U.2]66Y#E`B+4S=KP!5HM*4?!I0F[DQ&amp;*\#5XA+$^V5?!J0Y3E]B9?BGK4;19[H]$#]D-&gt;YD-&gt;YD)=J:4Q'9#9T!ZN"9-AUGB`'9TT'QU]:D`%9D`%9$]US(O-R(O-R(LKU68(44!=Z(I:2YEE]C3@R*"['6O**0)EH]31?JF0C34Q*)JEQ'2S#EE\*"=F*YEE]`&amp;(C34S**`%E(JL;%]KW-J.G/MDR"*\!%XA#4_"B#!7?Q".Y!E`A96A&amp;HM!4?!*0Y'%K":\!%XA#3$!JUSM9,/A98"1%A9&gt;0WSX2HJ+&lt;*.L2`T8HD;K_!&gt;5XFPK'5&gt;])[A^9`='J0R$VB6:@107&amp;5&lt;^B^2N2"[J0L$[A_I5[]8WA\KE\[J;[I;[J+_K3OJC[XPD#U_GEQ_'A`8[PX7[H\8;LT7;D^8KNV7KFZ8+JR7,R]L&lt;[T$'8OUPPJ?/X]?HH/$Y&gt;(\\?(R__X)`D^V@ND`3\6:X@3``$OV%@.*[^ZFGD8X%:"IU!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI_IconEditor" Type="Str">48 57 48 49 56 48 49 51 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 34 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 182 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 255 148 66 0 66 222 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 255 148 66 255 148 66 255 148 66 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 255 148 66 0 66 222 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 0 66 222 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 255 148 66 0 66 222 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 255 148 66 255 148 66 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 255 148 66 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 66 222 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 128 0 0 1 255 255 255 255 0 0 0 4 70 105 108 108 100 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 0 0
+
+</Property>
+	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
+	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
+	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Miniquads.constructor.vi" Type="VI" URL="../Miniquads.constructor.vi"/>
+		<Item Name="Miniquads.destructor.vi" Type="VI" URL="../Miniquads.destructor.vi"/>
+		<Item Name="Miniquads.Initialize.vi" Type="VI" URL="../Miniquads.Initialize.vi"/>
+		<Item Name="Miniquads.Close.vi" Type="VI" URL="../Miniquads.Close.vi"/>
+		<Item Name="Miniquads.IDQuery.vi" Type="VI" URL="../Miniquads.IDQuery.vi"/>
+		<Item Name="Miniquads.SetVoltage.vi" Type="VI" URL="../Miniquads.SetVoltage.vi"/>
+		<Item Name="Miniquads.SetFocusVoltage.vi" Type="VI" URL="../Miniquads.SetFocusVoltage.vi"/>
+		<Item Name="Miniquads.SetHorizontalVoltage.vi" Type="VI" URL="../Miniquads.SetHorizontalVoltage.vi"/>
+		<Item Name="Miniquads.SetVerticalVoltage.vi" Type="VI" URL="../Miniquads.SetVerticalVoltage.vi"/>
+		<Item Name="Miniquads.CalculateVoltage.vi" Type="VI" URL="../Miniquads.CalculateVoltage.vi"/>
+		<Item Name="Miniquads.get library version.vi" Type="VI" URL="../Miniquads.get library version.vi"/>
+		<Item Name="Miniquads.get data to modify.vi" Type="VI" URL="../Miniquads.get data to modify.vi"/>
+		<Item Name="Miniquads.set modified data.vi" Type="VI" URL="../Miniquads.set modified data.vi"/>
+	</Item>
+	<Item Name="protected" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Miniquads.get i attribute.vi" Type="VI" URL="../Miniquads.get i attribute.vi"/>
+		<Item Name="Miniquads.set i attribute.vi" Type="VI" URL="../Miniquads.set i attribute.vi"/>
+		<Item Name="Miniquads.ProcCases.vi" Type="VI" URL="../Miniquads.ProcCases.vi"/>
+		<Item Name="Miniquads.ProcPeriodic.vi" Type="VI" URL="../Miniquads.ProcPeriodic.vi"/>
+	</Item>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Miniquads.i attribute.ctl" Type="VI" URL="../Miniquads.i attribute.ctl"/>
+		<Item Name="Miniquads.voltages.ctl" Type="VI" URL="../Miniquads.voltages.ctl"/>
+		<Item Name="Miniquads.i attribute.vi" Type="VI" URL="../Miniquads.i attribute.vi"/>
+		<Item Name="Miniquads.add services.vi" Type="VI" URL="../Miniquads.add services.vi"/>
+		<Item Name="Miniquads.remove services.vi" Type="VI" URL="../Miniquads.remove services.vi"/>
+		<Item Name="Miniquads.ProcEvents.vi" Type="VI" URL="../Miniquads.ProcEvents.vi"/>
+		<Item Name="Miniquads.LoadObjects.vi" Type="VI" URL="../Miniquads.LoadObjects.vi"/>
+		<Item Name="Miniquads.UnloadObjects.vi" Type="VI" URL="../Miniquads.UnloadObjects.vi"/>
+	</Item>
+	<Item Name="inheritance" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="PRIVATE.ProcCases.vi" Type="VI" URL="../inheritance/PRIVATE.ProcCases.vi"/>
+		<Item Name="PUBLIC.constructor.vi" Type="VI" URL="../inheritance/PUBLIC.constructor.vi"/>
+		<Item Name="PUBLIC.destructor.vi" Type="VI" URL="../inheritance/PUBLIC.destructor.vi"/>
+	</Item>
+	<Item Name="Miniquads.contents.vi" Type="VI" URL="../Miniquads.contents.vi"/>
+	<Item Name="Miniquads_db.ini" Type="Document" URL="../Miniquads_db.ini"/>
+	<Item Name="Miniquads_mapping.ini" Type="Document" URL="../Miniquads_mapping.ini"/>
+</Library>

@@ -1,0 +1,24 @@
+License Agreement for this software:
+
+Copyright (C)
+
+Author: Christopher Borgmann
+
+Max-Planck-Institut für Kernphysik
+Saufpercheckweg 1
+69117 Heidelberg, Germany
+
+Contact: christopher.borgmann@mpi-hd.mpg.de
+
+This program is free software; you can redistribute it and/or modify it under the terms of the 
+GNU General Public License as published by the Free Software Foundation; either version 3 of 
+the license, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See 
+the GNU General License for more details (http://www.gnu.org).
+
+Gesellschaft für Schwerionenforschung, GSI
+Planckstr. 1, 64291 Darmstadt, Germany
+For all questions and ideas contact: H.Brand@gsi.de or D.Beck@gsi.de.
+Last update: 30-June-2010
